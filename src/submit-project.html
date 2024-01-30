@@ -32,18 +32,6 @@
 		<script>
 			let server = 'http://localhost/contact-form/services/public/api';
 			let fields = {
-				"name": {
-					"icon": 'fa fa-user',
-					"label": 'Name',
-					"type": "input",
-					"placeholder": "Your name"
-				},
-				"email": {
-					"icon": "fa fa-envelope",
-					"label": "Email",
-					"type": "input",
-					"placeholder": "Your email address"
-				},
 				"project": {
 					"icon": "fa fa-font",
 					"label": "Project Name",
@@ -52,21 +40,45 @@
 				},
 				"description": {
 					"icon": "fa fa-quote-left",
-					"label": "Description",
+					"label": "Project Description",
 					"type": "textarea",
-					"placeholder": "Your project description"
+					"placeholder": "A short description of your project"
 				},
 				"project_url": {
 					"icon": "fa fa-cloud",
-					"label": "Project Url",
+					"label": "Website (if available)",
 					"type": "input",
 					"placeholder": "A link to your project web page"
 				},
 				"code_url": {
 					"icon": "fa fa-code",
-					"label": "Code Url",
+					"label": "Source Code",
 					"type": "input",
-					"placeholder": "A link to your project code repository"
+					"placeholder": "Link to source code (GitHub, etc.)"
+				},
+				"association": {
+					"icon": 'fa fa-institution',
+					"label": 'Association',
+					"type": "input",
+					"placeholder": "How does this project associate with UW?"
+				},
+				"license": {
+					"icon": 'fa fa-gavel',
+					"label": 'License',
+					"type": "select",
+					"options": ["MIT", "Apache", "ISC", "BSD-2", "BSD-3", "Creative Commons", "GPL", "LGPL", "Mozilla", "Eclipse", "Affero", "Other"]
+				},
+				"contact": {
+					"icon": 'fa fa-user',
+					"label": 'Contact Name',
+					"type": "input",
+					"placeholder": "Name of your project's contact person"
+				},
+				"contact_email": {
+					"icon": "fa fa-envelope",
+					"label": "Contact Email",
+					"type": "input",
+					"placeholder": "Email address of your project's contact person"
 				},
 				"attachment": {
 					"icon": "fa fa-image",
