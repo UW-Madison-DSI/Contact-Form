@@ -1,4 +1,11 @@
+# Macintosh files
 .DS_Store
-log/
-*.swp
+
+# Laravel files
 .env
+log/
+
+# Jupyter lab files
+.ipynb_checkpoints/
+.jupyter/
+*.swp

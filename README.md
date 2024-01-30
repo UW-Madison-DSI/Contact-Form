@@ -2,6 +2,14 @@
 
 Contact Form is simple configurable web form application for sending information and optional file attachments via email.
 
+# Screen Shots
+
+![Screen Shot](images/screen-shots/contact-form.png)
+Contact Form
+
+![Screen Shot](images/screen-shots/submit-project-form.png)
+Submit Project Form
+
 # Configuration
 There are two configuration files that you will need to modify:
 
