@@ -1,0 +1,54 @@
+/******************************************************************************\
+|                                                                              |
+|                                    styles.scss                               |
+|                                                                              |
+|******************************************************************************|
+|                                                                              |
+|        This defines various CSS styles used in this application.             |
+|                                                                              |
+|        Author(s): Abe Megahed                                                |
+|                                                                              |
+|        This file is subject to the terms and conditions defined in           |
+|        'LICENSE.txt', which is part of this source code distribution.        |
+|                                                                              |
+|******************************************************************************|
+|        Copyright (C) 2016-2023, Megahed Labs LLC, www.sharedigm.com          |
+\******************************************************************************/
+
+body {
+	padding: 10px;
+	font-family: 'Red Hat Text';
+}
+
+form, .form {
+	margin: 10px;
+}
+
+/*
+ * headings
+ */
+
+h1, h2, h3 {
+	font-family: 'Red Hat Display';
+}
+
+/*
+ * icons
+ */
+
+label i, button:not(.btn-sm) i {
+	margin-right: 10px;
+}
+
+.btn-sm i {
+	font-size: 20px;
+	vertical-align: middle;
+}
+
+/*
+ * forms
+ */
+
+#file, select.form-control {
+	width: 300px;
+}

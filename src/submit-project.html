@@ -1,0 +1,81 @@
+<!DOCTYPE html> 
+<html lang="en">
+	<head>
+		<title>Submit Project Form</title>
+
+		<!-- styles -->
+		<link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.css" />
+		<link rel="stylesheet" href="styles/styles.css" />
+
+		<!-- fonts -->
+		<link rel="stylesheet" type="text/css" href="fonts/fontawesome-6.2.1/css/all.min.css" />
+		<link rel="stylesheet" href="fonts/red-hat-display/styles.css" />
+		<link rel="stylesheet" href="fonts/red-hat-text/styles.css" />
+
+		<!-- scripts -->
+		<script type="text/javascript" src="library/underscore/underscore.js"></script>
+		<script type="text/javascript" src="library/jquery/jquery-3.6.0.js"></script>
+	</head>
+
+	<body>
+		<h1>Submit Project Form</h1>
+		<div class="form"></div>
+
+		<hr />
+
+		<div class="buttons">
+			<button class="send btn btn-primary btn-lg">
+				<i class="fa fa-envelope"></i>Send
+			</button>
+		</div>
+
+		<script>
+			let server = 'http://localhost/contact-form/services/public/api';
+			let fields = {
+				"name": {
+					"icon": 'fa fa-font',
+					"label": 'Name',
+					"type": "input",
+					"placeholder": "Your name"
+				},
+				"email": {
+					"icon": "fa fa-envelope",
+					"label": "Email",
+					"type": "input",
+					"placeholder": "Your email address"
+				},
+				"project": {
+					"icon": "fa fa-quote-left",
+					"label": "Project Name",
+					"type": "input",
+					"placeholder": "Your project name"
+				},
+				"description": {
+					"icon": "fa fa-left-quote",
+					"label": "Description",
+					"type": "textarea",
+					"placeholder": "Your project description"
+				},
+				"project_url": {
+					"icon": "fa fa-cloud",
+					"label": "Project Url",
+					"type": "input",
+					"placeholder": "A link to your project web page"
+				},
+				"code_url": {
+					"icon": "fa fa-code",
+					"label": "Code Url",
+					"type": "input",
+					"placeholder": "A link to your project code repository"
+				},
+				"attachment": {
+					"icon": "fa fa-image",
+					"label": "Project Image",
+					"type": "attachment"
+				}
+			}
+		</script>
+		<script type="text/javascript" src="scripts/forms.js"></script>
+		<script type="text/javascript" src="scripts/main.js"></script>
+	</body>
+</html>
